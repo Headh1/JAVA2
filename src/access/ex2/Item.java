@@ -10,4 +10,12 @@ public class Item {
         this.price = price;
         this.quantity = quantity;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getSum() {
+        return price*quantity;
+    }
 }
