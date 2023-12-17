@@ -9,6 +9,8 @@ public class Book extends Item{
         this.author = author;
         this.isbn = isbn;
     }
+
+    @Override
     public void print(){
         super.print();
         System.out.println(" - 저자 : "+author+" inbn : "+isbn);
